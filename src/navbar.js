@@ -24,7 +24,7 @@ const NavBar = ()=>{
                 <img src={Sodiq} />
             </div>
             <ul>
-            <Link to="/" style={styleNav}>
+            <Link to="/SideeqPort" style={styleNav}>
                 <li>
                     <img  src={house} />
                    <label> Profile</label>
