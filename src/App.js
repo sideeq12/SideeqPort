@@ -18,7 +18,7 @@ function App() {
        <Route path="/about" exact component={About} />
        <Route path="/contact" exact component={Contact} />
        <Route path="/project" exact component={Project} />
-       <Route path="/" exact component={Profile} />
+       <Route path="/SideeqPort" exact component={Profile} />
      </Switch>
      </Router>
     </div>

@@ -450,7 +450,8 @@ button:hover{
     justify-content: center;
     text-align: center;
     align-items: center;
-    font-size: 10px;
+    padding: 10px 15px;
+    font-size: 7px;
   }
   .nav ul li:active{
     border-top: 2px solid #2c7575;
@@ -523,7 +524,6 @@ button:hover{
 
  .project{
    width: 100vw;
-  margin-bottom: 200px;
  }
   .ProjectCard{
     display: flex;
@@ -535,12 +535,13 @@ button:hover{
   .ProjectCard .message{
     margin-top: 20px;
     margin-bottom: 10px;
+    font-size: 10px;
     text-align: center;
   }
   .ProjectCard .message p{
     letter-spacing: 1px;
     line-height: normal;
-    font-size: 15px;
+    font-size: 10px;
   }
   .ProjectCard img{
     width: 200px;
