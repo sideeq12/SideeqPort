@@ -6,8 +6,9 @@ html, body, #fullheight {
     /* min-height: 100% !important;
     height: 100%; */
     font-family: Poppins;
-    height: 100%;
-    /* overflow-y: auto; */
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
 /* body::-webkit-scrollbar {
   width: 1em;
@@ -24,8 +25,9 @@ body::-webkit-scrollbar-track {
   text-align: center;
   background-color: #09131d;
   display: flex;
+  width: 100vw;
+  overflow-x: hidden;
   color: aliceblue;
-  
 }
 
 @keyframes animate {
@@ -389,6 +391,9 @@ button:hover{
 }
 /* ----------------------mobile ---------------------------------- */
 @media (max-width:960px) {
+  .App{
+    background-color: blue;
+  }
   .imageSection{
     display: none;
   }
