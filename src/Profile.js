@@ -1,5 +1,6 @@
 import React from "react"
 import Sodiq from "./sodiq.jpg"
+import Resume from "./Waheed_Sodiq_Resume.pdf"
 
 const Profile = ()=>{
     return (
@@ -33,10 +34,11 @@ const Profile = ()=>{
     <div className="blobCover">
             <img src={Sodiq} className="imageblob" />
     </div>
-                <h2>Hi, You just reached <label>waheed Sodiq's profile</label></h2>
+                <h2>Frontend Developer</h2>
                 <br/>
-                    <p>Innovative and talented young mind, passionate about creating and contributing to scalable projects. Always ready to learn and a problem solver. 
-                      </p><a className="resume" href="" target="_blank" download="waheed sodiq resume">Resume</a>
+                    <p>Hi, I am waheed Sodiq by name. I am an experienced frontend developer with solid knowledge in writing clean, efficient 
+                      and readable codes. I am proficient in creating responsive and unique User interfaces.
+                      </p><a className="resume" href={Resume} target="_blank" download="waheed sodiq resume">Resume</a>
                 
             </div>
         </div>

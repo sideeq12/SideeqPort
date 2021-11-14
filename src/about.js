@@ -4,7 +4,7 @@ const About = ()=>{
     return(
         <div className="about">
             <h3>Hi there</h3>
-            <p>Have thorough Knowledge in web technologies and experience building complex robust frontend application with Javascript framework. Enthusiasm for working in fast-paced startup environment coupled with learner's
+            <p>I have experience building complex robust frontend application with Javascript framework. Enthusiasm for working in fast-paced startup environment coupled with learner's
                  mentality. Product intuition and attention to details with strong technical communication.</p>
                  <div className="technologies">
                      <span className="ht">
