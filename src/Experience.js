@@ -6,7 +6,8 @@ const Experience = ()=>{
          
              {experienceList.map((list)=>(<div className="card">
                  <h3>{list.header} <label className="year">{list.year}</label></h3>
-                 <p>{list.message}<a href={list.github_url} target="_blank" className="github">{list.Certificate}</a></p></div>))}
+                 <p>{list.message}<a href={list.github_url} target="_blank" className="github">{list.Certificate}</a></p>
+                 </div>))}
              </div>
      )
 }

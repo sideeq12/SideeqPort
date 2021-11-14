@@ -274,10 +274,12 @@ body::-webkit-scrollbar-track {
 
 /* --------------About section ----------- */
 .about{
+  padding-top: 100px;
   width: 75vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow-y: scroll;
   align-items: center;
 }
 .about p, .about .technologies, .about .list{
@@ -285,7 +287,6 @@ body::-webkit-scrollbar-track {
   margin-top: 25px;
 }
 .about .technologies{
-  /* background-color: blue; */
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -398,11 +399,9 @@ button:hover{
   .imageSection{
     display: none;
   }
-  /* .Profile .imageList {
-    padd-
-  } */
   .Profile{
     width: 100vw;
+    height: 90vh;
   }
   .Profile .imageList p{
     width: 90vw;
@@ -425,9 +424,9 @@ button:hover{
     font-size: 15px;
     width: 100vw;
   }
-  .Profile, .experience, .contact, .about, .project {
+  /* .Profile, .experience, .contact, .about, .project {
     height: 90vh;
-  }
+  } */
   
 
   .nav{
@@ -448,8 +447,7 @@ button:hover{
     margin-bottom: 0px;
   }
   .nav ul li label{
-    margin-top: 0px;
-    display: none;
+    margin-top: -15px
   }
   .nav ul{
     margin-top: 0;
@@ -470,9 +468,7 @@ button:hover{
     text-align: center;
     margin-left: 0px;
     align-items: center;
-    /* background-color: blue; */
     margin-left: 1px;
-    /* width: 10vw; */
     font-size: 7px;
     padding-right: 2px;
     padding-left: 2px;
@@ -489,14 +485,10 @@ button:hover{
     justify-self: center;
     align-self: center;
     width: 20px;
-    /* background-color: yellow; */
     margin-bottom: 2px;
     
   }
   /* ------------------Profile------------------ */
-  .Profile{
-    width: 100vw;
-  }
   .imageList{
     flex-direction: column-reverse;
     margin-left: 0%;
@@ -504,11 +496,11 @@ button:hover{
     justify-content: center;
     align-items: center;
     width: 100vh;
-    /* background-color: green; */
   }
   
   .socials ul {
     display: flex;
+    width: 80vw;
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
@@ -528,10 +520,10 @@ button:hover{
     font-size: 12px;
   }
   .main p{
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 1px;
     color: rgba(255, 255, 255, 0.808);
-    /* width: 80vw; */
+    margin-bottom: 5px;
   }
   .main{
     width: 60vw;
@@ -544,25 +536,26 @@ button:hover{
   .expo{
     width: 100vw;
   }
-  .expo{
-    padding-bottom: 100px;
+  .expo .card{
+    width: 80vw;
+    height: 100%;
+    font-size: 13px;
   }
   /* ---------Project section --------- */
 
  .project{
    width: 100vw;
+   /* height: 90vh; */
  }
   .ProjectCard{
     display: flex;
     flex-direction: column;
     height: 100%;
     align-items: center;
-    /* background-color: green; */
   }
   .ProjectCard .message{
     margin-top: 20px;
     margin-bottom: 10px;
-    font-size: 1px;
     text-align: center;
   }
   .ProjectCard .message p{
@@ -576,27 +569,23 @@ button:hover{
   }
 
   /* ---------------about section -------- */
+ 
   .about{
     width: 100vw;
-  }
-  .about{
-    /* padding-top: 250px; */
     padding-bottom: 100px;
-    overflow: scroll;
-    height: 90vh;
-    /* background-color: green; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    overflow-y: hidden;
+    height: 90vh;
+    overflow-y: scroll;
   }
  
   .about p,.about .technologies, .about .list{
     width: 80vw;
   }
   .about p, .about .list{
-    font-size: 15px;
+    font-size: 13px;
   }
   .about .technologies span{
     padding: 5px;
@@ -605,6 +594,26 @@ button:hover{
   /* --------------------- contact ------------ */
   .contact{
     width: 100vw;
+  }
+  .contact h1{
+    font-size: 15px;
+    width: 70vw;
+  }
+  .contact form{
+    margin: 0px;
+    width: 70vw;
+    font-size: 15px;
+  }
+  .contact form input, .contact form textarea, .contact form button{
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+  }
+  .contact form input{
+    height: 20px;
+  }
+  .contact form textarea{
+    height: 100px;
   }
   .contact .whatsapp, .contact .gmail{
     padding: 5px 10px;

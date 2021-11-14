@@ -3,7 +3,8 @@ import React from "react"
 const Contact = ()=>{
     return(
         <div className="contact">
-            <h1>I will like to hear from you.</h1>
+            <h1>Hi! wanna say something? I will like
+                 to hear from you. &#128521;</h1>
             <form  action="https://formspree.io/f/meqvyjzw"
   method="POST">
                 
