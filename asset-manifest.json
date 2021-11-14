@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SideeqPort/static/css/main.5fcc309b.chunk.css",
+    "main.css": "/SideeqPort/static/css/main.8beb22c1.chunk.css",
     "main.js": "/SideeqPort/static/js/main.5e066ad5.chunk.js",
     "main.js.map": "/SideeqPort/static/js/main.5e066ad5.chunk.js.map",
     "runtime-main.js": "/SideeqPort/static/js/runtime-main.c29bbaba.js",
@@ -10,7 +10,7 @@
     "static/js/3.4b8ab9fd.chunk.js": "/SideeqPort/static/js/3.4b8ab9fd.chunk.js",
     "static/js/3.4b8ab9fd.chunk.js.map": "/SideeqPort/static/js/3.4b8ab9fd.chunk.js.map",
     "index.html": "/SideeqPort/index.html",
-    "static/css/main.5fcc309b.chunk.css.map": "/SideeqPort/static/css/main.5fcc309b.chunk.css.map",
+    "static/css/main.8beb22c1.chunk.css.map": "/SideeqPort/static/css/main.8beb22c1.chunk.css.map",
     "static/js/2.6fdd9851.chunk.js.LICENSE.txt": "/SideeqPort/static/js/2.6fdd9851.chunk.js.LICENSE.txt",
     "static/media/white-award.be96cf8c.svg": "/SideeqPort/static/media/white-award.be96cf8c.svg",
     "static/media/white-bar.7ff3e444.svg": "/SideeqPort/static/media/white-bar.7ff3e444.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.c29bbaba.js",
     "static/js/2.6fdd9851.chunk.js",
-    "static/css/main.5fcc309b.chunk.css",
+    "static/css/main.8beb22c1.chunk.css",
     "static/js/main.5e066ad5.chunk.js"
   ]
 }
