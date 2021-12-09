@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/SideeqPort/static/css/main.ad120b35.chunk.css",
-    "main.js": "/SideeqPort/static/js/main.419a9e90.chunk.js",
-    "main.js.map": "/SideeqPort/static/js/main.419a9e90.chunk.js.map",
+    "main.js": "/SideeqPort/static/js/main.c4cb8c7d.chunk.js",
+    "main.js.map": "/SideeqPort/static/js/main.c4cb8c7d.chunk.js.map",
     "runtime-main.js": "/SideeqPort/static/js/runtime-main.c29bbaba.js",
     "runtime-main.js.map": "/SideeqPort/static/js/runtime-main.c29bbaba.js.map",
     "static/js/2.6fdd9851.chunk.js": "/SideeqPort/static/js/2.6fdd9851.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/SideeqPort/index.html",
     "static/css/main.ad120b35.chunk.css.map": "/SideeqPort/static/css/main.ad120b35.chunk.css.map",
     "static/js/2.6fdd9851.chunk.js.LICENSE.txt": "/SideeqPort/static/js/2.6fdd9851.chunk.js.LICENSE.txt",
-    "static/media/Waheed_Sodiq_Resume.2966a423.pdf": "/SideeqPort/static/media/Waheed_Sodiq_Resume.2966a423.pdf",
+    "static/media/Waheed_Sodiq.e62f9068.pdf": "/SideeqPort/static/media/Waheed_Sodiq.e62f9068.pdf",
     "static/media/white-award.be96cf8c.svg": "/SideeqPort/static/media/white-award.be96cf8c.svg",
     "static/media/white-bar.7ff3e444.svg": "/SideeqPort/static/media/white-bar.7ff3e444.svg",
     "static/media/white-book.09c59495.svg": "/SideeqPort/static/media/white-book.09c59495.svg",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.c29bbaba.js",
     "static/js/2.6fdd9851.chunk.js",
     "static/css/main.ad120b35.chunk.css",
-    "static/js/main.419a9e90.chunk.js"
+    "static/js/main.c4cb8c7d.chunk.js"
   ]
 }
