@@ -1,6 +1,6 @@
 import React from "react"
 import Sodiq from "./sodiq.jpg"
-import Resume from "./Waheed_Sodiq_Resume.pdf"
+import Resume from "./Waheed_Sodiq.pdf"
 
 const Profile = ()=>{
     return (
@@ -38,7 +38,7 @@ const Profile = ()=>{
                 <br/>
                     <p>Hi, I am waheed Sodiq by name. I am an experienced frontend developer with solid knowledge in writing clean, efficient 
                       and readable codes. I am proficient in creating responsive and unique User interfaces.
-                      </p><a className="resume" href={Resume} target="_blank" download="waheed sodiq resume">Resume</a>
+                      </p><a className="resume" href={Resume} target="_blank" download="waheed sodiq CV">Resume</a>
                 
             </div>
         </div>
